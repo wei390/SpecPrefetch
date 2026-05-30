@@ -1,0 +1,96 @@
+{
+  "fusion_mode": "lora",
+  "checkpoint": "/mnt/data/kjw_code/Qwen_moe/v14/deepseekmoe/deepseek_vl2_output_lora/checkpoint-1072",
+  "results": {
+    "ChartQA_TEST": {
+      "next1": {
+        "recall@3": 0.49629774786070496,
+        "recall@6": 0.8961352921641191,
+        "recall@8": 0.9682543132337162,
+        "exact@6": 0.4652840959307211
+      },
+      "next2": {
+        "recall@3": 0.48802649560966105,
+        "recall@6": 0.8447351832323695,
+        "recall@8": 0.9295500865629398,
+        "exact@6": 0.29887580268301356
+      },
+      "n_samples": 2500,
+      "total_decode_tokens": 57917,
+      "time_s": 5225.2,
+      "time_per_sample": 2.09
+    },
+    "OCRBench": {
+      "next1": {
+        "recall@3": 0.4936290055472739,
+        "recall@6": 0.8928891501197678,
+        "recall@8": 0.9644723648580216,
+        "exact@6": 0.4689910304690011
+      },
+      "next2": {
+        "recall@3": 0.48381901741020894,
+        "recall@6": 0.8433234572803471,
+        "recall@8": 0.9274761263419141,
+        "exact@6": 0.31511265310846553
+      },
+      "n_samples": 1000,
+      "total_decode_tokens": 34439,
+      "time_s": 2896.0,
+      "time_per_sample": 2.9
+    },
+    "HallusionBench": {
+      "next1": {
+        "recall@3": 0.49247436584365184,
+        "recall@6": 0.8871529556523651,
+        "recall@8": 0.9596046826565776,
+        "exact@6": 0.4487934079660968
+      },
+      "next2": {
+        "recall@3": 0.48238235139910945,
+        "recall@6": 0.838063513030542,
+        "recall@8": 0.9220053688280062,
+        "exact@6": 0.29246832014258956
+      },
+      "n_samples": 1129,
+      "total_decode_tokens": 21153,
+      "time_s": 1976.2,
+      "time_per_sample": 1.75
+    },
+    "GSM8K": {
+      "next1": {
+        "recall@3": 0.4835785519251891,
+        "recall@6": 0.8435093263413204,
+        "recall@8": 0.9246679984246972,
+        "exact@6": 0.32822599648106593
+      },
+      "next2": {
+        "recall@3": 0.4631938255423067,
+        "recall@6": 0.7815316221616022,
+        "recall@8": 0.8717841165318453,
+        "exact@6": 0.19535751411227226
+      },
+      "n_samples": 1319,
+      "total_decode_tokens": 67226,
+      "time_s": 5217.9,
+      "time_per_sample": 3.96
+    },
+    "openai_humaneval": {
+      "next1": {
+        "recall@3": 0.47605277126845824,
+        "recall@6": 0.8150938700030139,
+        "recall@8": 0.9064821581944866,
+        "exact@6": 0.2653142770319152
+      },
+      "next2": {
+        "recall@3": 0.4499757730717215,
+        "recall@6": 0.7561639717008548,
+        "recall@8": 0.8507861172776853,
+        "exact@6": 0.15757150682946516
+      },
+      "n_samples": 164,
+      "total_decode_tokens": 5822,
+      "time_s": 469.4,
+      "time_per_sample": 2.86
+    }
+  }
+}
