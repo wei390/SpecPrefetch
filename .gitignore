@@ -1,0 +1,43 @@
+# Eval datasets — too large for GitHub. See README "Datasets" section for download instructions.
+eval/datasets/
+
+# Training outputs / artifacts
+output/
+outputs/
+checkpoint-*/
+*.safetensors
+*.bin
+*.pt
+*.pth
+future_expert_predictor_metrics.jsonl
+wandb/
+runs/
+
+# Data recipe and JSONL data (user-provided)
+data_recipe/
+*.jsonl
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Logs
+*.log
+log/
+logs/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
