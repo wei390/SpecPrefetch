@@ -10,7 +10,7 @@ limited expert cache.
 The training objective is BCE + ranking loss against the teacher's TopK.
 The evaluation metric is **Recall@{3,6,8}** and **Exact-match@6** (against the
 teacher's TopK=6) on standard multimodal benchmarks during autoregressive
-decoding.
+decoding.Weight of deepseekvl on https://huggingface.co/jinwei001/SpecPrefetch_deepseekvl2.
 
 ---
 
